@@ -1,0 +1,6 @@
+.wrapper {
+    background: var(--secondary-white) url("/images/postbg.png") no-repeat top;
+    background-position-y: -200px;
+    padding: 240px 0 250px;
+    object-fit: cover;
+}

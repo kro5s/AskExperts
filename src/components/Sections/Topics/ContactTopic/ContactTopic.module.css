@@ -1,0 +1,6 @@
+.wrapper {
+    background: var(--secondary-white) url("/images/contactbg.png") no-repeat top;
+    background-position-y: -200px;
+    padding: 160px 0;
+    object-fit: cover;
+}

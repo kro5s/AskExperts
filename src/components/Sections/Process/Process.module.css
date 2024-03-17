@@ -1,0 +1,30 @@
+.wrapper {
+    padding: 150px 0 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 120px;
+}
+
+.leftTitle {
+    padding: 0.35em 0;
+}
+
+.leftText {
+    padding-bottom: 2.5em;
+}
+
+.rightTitle {
+    padding: 0.16em 0;
+}
+
+.rightGrid {
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(2, 1fr);
+
+    grid-gap: 15px;
+
+    padding-top: 1.25em;
+}

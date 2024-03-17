@@ -1,0 +1,16 @@
+.wrapper {
+    background-color: var(--secondary-white);
+    padding: 180px 0;
+}
+
+.tag {
+    margin-bottom: 0.5em;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+
+    padding-top: 45px;
+}

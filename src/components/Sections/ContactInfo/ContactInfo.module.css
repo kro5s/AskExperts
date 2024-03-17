@@ -1,0 +1,28 @@
+.container {
+    max-width: 420px;
+}
+
+.title {
+    padding: 0.1em 0 0.2em;
+}
+
+.list {
+    padding-top: 2.375rem;
+
+    & li + li {
+        margin-top: 55px;
+    }
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.itemBody {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--main-black);
+}

@@ -1,0 +1,6 @@
+.wrapper {
+    padding: 145px 0;
+    background: var(--secondary-white) url("/images/studiesbg.png") no-repeat top;
+    background-position-y: -200px;
+    object-fit: cover;
+}

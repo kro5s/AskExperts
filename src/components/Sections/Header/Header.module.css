@@ -1,0 +1,108 @@
+.upper {
+    padding: 1.125em 0;
+
+    color: #fff;
+    background-color: var(--main-black);
+}
+
+.upperContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    column-gap: 25px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    & svg {
+        & path {
+            stroke: var(--accent-orange);
+        }
+    }
+}
+
+.main {
+    color: #FFF;
+    background-color: rgba(27, 27, 27, 0.91);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2.5em 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    column-gap: 11px;
+
+    font-family: "Cabin", sans-serif;
+    font-size: 1.875em;
+    font-weight: 600;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    font-size: 1.125em;
+}
+
+.navItem a {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+
+    column-gap: 11px;
+    padding: 0.5em 2.625em 0.5em 0.625em;
+    border-radius: 2.625em;
+
+    font-size: 1.125em;
+    font-weight: 600;
+    color: #353535;
+    background-color: #fff;
+}
+
+.activeNavItem {
+    color: var(--accent-green);
+
+    & svg {
+        fill: var(--accent-green);
+
+        & circle {
+            stroke: var(--accent-green);
+        }
+    }
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5em;
+
+    padding: 0.5em 2em 0.5em 0.5em;
+    border: 2px solid #fff;
+    border-radius: 2.2em;
+
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #fff;
+    color: #353535;
+}

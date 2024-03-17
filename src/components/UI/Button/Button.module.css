@@ -1,0 +1,31 @@
+.button {
+    display: inline-flex;
+    padding: 1em 2em;
+    border: 2px solid var(--main-black);
+    border-radius: 2.625em;
+
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--main-black);
+
+    transition: background-color, color 0.3s;
+
+    &:hover {
+        color: var(--main-black);
+        background-color: transparent;
+    }
+}
+
+.yellow {
+    border: 2px solid var(--accent-orange);
+    color: var(--main-black);
+    background-color: var(--accent-orange);
+
+    transition: background-color, color 0.3s;
+
+    &:hover {
+        border: 2px solid var(--main-black);
+        color: #fff;
+        background-color: var(--main-black);
+    }
+}

@@ -1,0 +1,6 @@
+.wrapper {
+    background: var(--secondary-white) url("/images/blogbg.png") no-repeat top;
+    background-position-y: -200px;
+    padding: 170px 0 180px;
+    object-fit: cover;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.filters {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 40px;
+
+    padding: 30px 45px;
+    border-radius: 30px;
+
+    background-color: var(--main-black);
+}
+
+.filter {
+    cursor: pointer;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+
+    border-bottom: 3px solid var(--main-black);
+
+    transition: color, border-bottom-color 0.2s;
+
+    &:hover {
+        color: var(--accent-orange);
+        border-bottom: 3px solid var(--accent-orange);
+    }
+}
+
+.filter.active {
+    color: var(--accent-orange);
+    border-bottom: 3px solid var(--accent-orange);
+}
+
+.grid {
+    background-color: var(--secondary-white);
+    text-align: left;
+}

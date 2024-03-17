@@ -1,0 +1,39 @@
+.wrapper {
+    padding: 150px 0;
+
+    text-align: center;
+}
+
+.title {
+    padding: 0.5em 0 0.25em;
+}
+
+.video {
+    &::before {
+        content: ' ';
+        position: absolute;
+
+        width: 165px;
+        height: 185px;
+
+        left: -45px;
+        bottom: -25px;
+
+        border-radius: 20px;
+
+        background-color: var(--accent-green);
+    }
+
+    &::after {
+        content: ' ';
+        position: absolute;
+
+        width: 285px;
+        height: 285px;
+
+        top: -35px;
+        right: -55px;
+
+        background: url("/decorations/aboutdec.svg") no-repeat center;
+    }
+}

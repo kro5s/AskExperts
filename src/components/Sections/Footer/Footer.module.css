@@ -1,0 +1,82 @@
+.wrapper {
+    background: var(--main-black) url("/images/footerbg.png") no-repeat center;
+    padding: 125px 0 25px;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDivider {
+    height: 235px;
+    width: 1px;
+
+    background-color: #707070;
+}
+
+.logoContainer {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+
+    font-size: 1.875rem;
+}
+
+.symbols {
+    font-size: 1.25rem;
+    padding-top: 1.5em;
+}
+
+.menus {
+    display: flex;
+    column-gap: 100px;
+}
+
+.menu {
+    & li {
+        list-style: disc;
+    }
+}
+
+.menuTitle {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.menuDivider {
+    width: 32px;
+    height: 2px;
+
+    margin: 10px 0;
+
+    background-color: var(--accent-orange);
+}
+
+a.button {
+    margin-top: 0.875em;
+
+    font-weight: 600;
+    font-size: 1.125rem;
+    background-color: #fff;
+    color: var(--main-black);
+    border: 2px solid #fff;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.copyrights {
+    text-align: center;
+    border-top: 1px solid #707070;
+    padding-top: 1.25em;
+    margin-top: 3.5em;
+}

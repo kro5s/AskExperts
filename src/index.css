@@ -1,0 +1,32 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400..700&family=Lato:wght@400;700&display=swap');
+
+:root {
+    --accent-orange: #FFCC4A;
+    --accent-green: #4EAF4E;
+
+    --main-black: #181818;
+
+    --secondary-white: #F5F5F5;
+
+    --main-text: #595566;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: var(--main-text);
+    line-height: 1.475;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+}

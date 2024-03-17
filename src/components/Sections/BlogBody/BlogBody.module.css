@@ -1,0 +1,19 @@
+.wrapper {
+    padding: 170px 0 320px;
+}
+
+.desc {
+    align-items: center;
+
+    padding-bottom: 4.375rem;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(2, 1fr);
+    grid-gap: 60px 30px;
+}

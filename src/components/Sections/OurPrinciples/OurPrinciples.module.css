@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: var(--secondary-white);
+    padding: 100px 0;
+}
+
+.title {
+    padding: 0.1em 0;
+}
+
+.desc {
+    padding-bottom: 2rem;
+}
+
+.principles {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+
+    & li {
+        max-width: 270px;
+    }
+}

@@ -1,0 +1,37 @@
+.container {
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 15px;
+
+    padding: 3em;
+    border-radius: 1.25em;
+
+    background-color: #EBEBEB;
+
+    transition: background-color, color 0.3s;
+
+    &:hover {
+        color: #FFF;
+        background-color: var(--main-black);
+
+        & .title {
+            color: #FFF;
+        }
+    }
+}
+
+.icon {
+    width: 100px;
+}
+
+.title {
+    padding: 0 0 0.4em;
+
+    font-weight: 600;
+    font-size: 1.625rem;
+
+    transition: color 0.3s;
+}

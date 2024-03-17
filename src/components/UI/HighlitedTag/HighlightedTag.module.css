@@ -1,0 +1,16 @@
+.tag {
+    display: inline-flex;
+
+    padding: 0 0.75em;
+    border-radius: 1.25em;
+
+    color: #181818;
+    background-color: #FFCC4A;
+    text-transform: uppercase;
+    letter-spacing: 0.145em;
+}
+
+.green {
+    color: #fff;
+    background-color: var(--accent-green);
+}

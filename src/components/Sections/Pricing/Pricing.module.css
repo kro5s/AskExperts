@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: var(--secondary-white);
+    padding: 150px 0;
+    text-align: center;
+}
+
+.title {
+    padding: 0.5em 0 0.9em;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}

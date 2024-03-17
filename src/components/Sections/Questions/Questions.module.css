@@ -1,0 +1,40 @@
+.wrapper {
+    text-align: center;
+    padding: 150px 235px;
+    background-color: var(--secondary-white);
+    margin-bottom: 155px;
+}
+
+.title {
+    padding: 0.5em 0 0.9em;
+}
+
+.questions {
+    & li + li {
+        margin-top: 1.5rem;
+    }
+}
+
+.question {
+    cursor: pointer;
+    border-bottom: 1px solid #DADADA;
+    text-align: left;
+}
+
+.questionTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1.5rem;
+}
+
+.questionTitle {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.questionText {
+    max-width: 80%;
+    padding-bottom: 1rem;
+}

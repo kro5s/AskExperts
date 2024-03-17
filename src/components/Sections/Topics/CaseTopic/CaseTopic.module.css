@@ -1,0 +1,6 @@
+.wrapper {
+    background: var(--secondary-white) url("/images/casebg.png") no-repeat top;
+    background-position-y: -200px;
+    padding: 145px 0;
+    object-fit: cover;
+}

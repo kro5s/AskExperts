@@ -1,0 +1,94 @@
+.wrapper {
+    padding: 160px 0 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 90px;
+}
+
+.photoContainer {
+    position: relative;
+    flex: 0 0 auto;
+
+    &::after {
+        content: ' ';
+
+        position: absolute;
+        left: -36px;
+        top: -26px;
+
+        width: 183px;
+        height: 164px;
+        border-radius: 20px;
+
+        background-color: var(--accent-green);
+    }
+
+    &::before {
+        content: ' ';
+
+        position: absolute;
+        left: -95px;
+        top: -67px;
+
+        width: 330px;
+        height: 330px;
+
+        background: url("/decorations/aboutdec.svg") no-repeat center;
+    }
+}
+
+.photo {
+    position: relative;
+    z-index: 1;
+    width: 480px;
+    aspect-ratio: 1 / 1.05;
+    border-radius: 20px;
+}
+
+.top {
+    margin-bottom: 2rem;
+}
+
+.info {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 2.125rem;
+}
+
+.infoDivider {
+    width: 1px;
+    height: 35px;
+
+    background-color: #C1C1C1;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.role {
+    font-size: 1.125rem;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 2.5rem 0;
+    background-color: #C1C1C1;
+}
+
+.pastExperience {
+    font-size: 2.125rem;
+    margin-bottom: 0.3em;
+}

@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: var(--secondary-white);
+    padding: 150px 0;
+}
+
+.title {
+    padding: 0.5em 0 0.25em;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    padding-top: 2.75rem;
+}

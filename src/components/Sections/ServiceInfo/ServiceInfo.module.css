@@ -1,0 +1,64 @@
+.wrapper {
+    background-color: var(--secondary-white);
+    padding: 150px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.title {
+    padding: 0.3em 0 0.15em;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.control svg circle, path {
+    transition: all 0.15s;
+}
+
+.control {
+    &:hover {
+        & svg {
+            & circle {
+                fill: var(--accent-orange);
+            }
+
+            & path {
+                stroke: var(--main-black)
+            }
+        }
+    }
+}
+
+.features {
+    display: flex;
+    column-gap: 45px;
+    padding-top: 70px;
+
+    transition: transform 0.4s;
+}
+
+.feature svg path {
+    transition: fill 0.3s;
+}
+
+.feature {
+    flex: 0 0 auto;
+    width: 370px;
+    height: auto;
+
+    &:hover {
+        & svg {
+            & path {
+                fill: var(--accent-orange);
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.wrapper {
+    background: #fff url("/images/servicesbg.png") no-repeat top;
+    background-position-y: -200px;
+    padding: 170px 0 180px;
+    object-fit: cover;
+}

@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 0 0 150px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px 0 50px;
+    padding: 40px 25px;
+    border-radius: 20px;
+
+    background-color: #D9D9D9;
+}

@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+    margin-top: 150px;
+}
+
+.imageContainer {
+    position: relative;
+    flex: 1 0 auto;
+
+    &::after {
+        content: ' ';
+
+        position: absolute;
+        left: -36px;
+        top: -26px;
+
+        width: 183px;
+        height: 164px;
+        border-radius: 20px;
+
+        background-color: var(--accent-green);
+    }
+
+    &::before {
+        content: ' ';
+
+        position: absolute;
+        left: -95px;
+        top: -67px;
+
+        width: 330px;
+        height: 330px;
+
+        background: url("/decorations/aboutdec.svg") no-repeat center;
+    }
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+
+    width: 635px;
+    aspect-ratio: 8 / 7;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.title {
+    padding: 0.2em 0;
+}
+
+.list {
+    margin-top: 2.125rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+    & + .contact {
+        margin-top: 1rem;
+    }
+}
+
+.contactTitle {
+    font-family: "Cabin", sans-serif;
+    padding-bottom: 0.1em;
+}
+
+.contactText {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    color: var(--main-black);
+}

@@ -1,0 +1,55 @@
+.plus, .title, .tag {
+    transition: opacity 0.2s;
+}
+
+.image {
+    transition: filter 0.2s;
+}
+
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+    max-width: 360px;
+    max-height: 330px;
+
+    border-radius: 20px;
+
+    &:hover {
+        .plus, .title, .tag {
+            opacity: 1;
+        }
+
+        .image {
+            filter: brightness(25%);
+        }
+    }
+}
+
+.plus {
+    opacity: 0;
+
+    position: absolute;
+    right: 1.25em;
+    top: 1.25em;
+}
+
+.desc {
+    position: absolute;
+    left: 1.5em;
+    bottom: 1.5em;
+}
+
+.title {
+    opacity: 0;
+
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.tag {
+    opacity: 0;
+
+    color: var(--accent-orange);
+}

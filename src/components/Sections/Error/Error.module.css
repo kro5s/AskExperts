@@ -1,0 +1,71 @@
+.wrapper {
+    background-color: var(--secondary-white);
+    text-align: center;
+    padding: 150px 0;
+}
+
+.errorContainer {
+    position: relative;
+    z-index: 1;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 580px;
+}
+
+.errorBody {
+    position: relative;
+    z-index: 1;
+
+    border-radius: 30px;
+    padding: 70px 85px;
+
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.title, .type {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    color: var(--main-black);
+}
+
+.type {
+    font-size: 7.5rem;
+    line-height: 0.9;
+}
+
+.title {
+    font-size: 3.25rem;
+}
+
+.text {
+    padding: 0.3em 0 2.4em;
+}
+
+.rectDec, .dotsDec {
+    position: absolute;
+}
+
+.rectDec {
+    width: 250px;
+    height: 200px;
+
+    border-radius: 20px;
+
+    right: -38px;
+    bottom: -20px;
+
+    background-color: var(--accent-green);
+}
+
+.dotsDec {
+    width: 340px;
+    height: 340px;
+
+    top: -50px;
+    left: -50px;
+
+    background: url("/decorations/aboutdec.svg") no-repeat center;
+}

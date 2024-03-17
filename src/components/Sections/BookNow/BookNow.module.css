@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+    overflow: hidden;
+
+    background-color: var(--main-black);
+    border-radius: 1.875rem;
+    padding: 115px 90px;
+}
+
+.main {
+    max-width: 40%;
+}
+
+.image {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 50%;
+    height: 100%;
+    background: url("/images/booknowimage.png") no-repeat;
+    object-fit: cover;
+}
+
+.title {
+    padding: 8px 0;
+    color: #fff;
+
+    & span {
+        color: #727272;
+    }
+}
+
+.text {
+    padding-bottom: 1.3125em;
+    color: #fff;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 6px;
+
+    padding: 0.875em 1.1em;
+    border-radius: 2.2em;
+
+    font-weight: 600;
+    font-size: 1.125rem;
+
+    background-color: var(--accent-orange);
+    border: 2px solid var(--accent-orange);
+    color: var(--main-black);
+}

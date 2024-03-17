@@ -1,0 +1,22 @@
+.wrapper {
+    padding: 140px 0 150px;
+}
+
+.desc {
+    padding-bottom: 2.6rem;
+}
+
+.text {
+    padding-top: 0.8em;
+}
+
+.button {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.team {
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
+    grid-gap: 50px;
+}

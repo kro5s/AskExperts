@@ -1,0 +1,70 @@
+.wrapper {
+    padding: 85px 0 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+}
+
+.imageContainer {
+    position: relative;
+    flex: 1 0 auto;
+
+    margin-top: 67px;
+
+    &::after {
+        content: ' ';
+
+        position: absolute;
+        left: -36px;
+        top: -26px;
+
+        width: 183px;
+        height: 164px;
+        border-radius: 20px;
+
+        background-color: var(--accent-green);
+    }
+
+    &::before {
+        content: ' ';
+
+        position: absolute;
+        left: -95px;
+        top: -67px;
+
+        width: 330px;
+        height: 330px;
+
+        background: url("/decorations/aboutdec.svg") no-repeat center;
+    }
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+
+    width: 635px;
+    aspect-ratio: 8 / 5;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.title {
+    padding: 0.2em 0;
+}
+
+.expectations {
+    padding-top: 1.5rem;
+
+    & li + li {
+        margin-top: 1rem;
+    }
+}
+
+.expectation {
+    display: flex;
+    column-gap: 20px;
+}

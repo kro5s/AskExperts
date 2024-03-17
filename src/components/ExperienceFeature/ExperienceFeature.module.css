@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+
+    padding: 2em 1.5em;
+    border: 1px solid #EAEAEA;
+    border-radius: 1.25em;
+
+    background-color: #FAFAFA;
+}
+
+.title {
+    padding: 0 0 0.5em;
+
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.readMore {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+
+    padding-top: 1em;
+
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--main-black);
+}

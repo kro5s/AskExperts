@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+}
+
+.number, .name {
+    font-family: "Cabin", sans-serif;
+    color: var(--main-black);
+}
+
+.number {
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
